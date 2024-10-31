@@ -1,0 +1,154 @@
+/*
+Admin notice
+*/
+.orfw-plugin-required-notice {
+  overflow: hidden;
+  padding: 15px 15px;
+}
+.orfw-plugin-required-notice img.orfw-logo {
+  max-height: 48px;
+  float: left;
+}
+.orfw-plugin-required-notice .orfw-admin-notice-content {
+  float: left;
+  padding-left: 20px;
+}
+.orfw-plugin-required-notice .orfw-admin-notice-content h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #4636ff;
+}
+.orfw-plugin-required-notice .orfw-admin-notice-content p {
+  margin: 0;
+  margin-top: 5px;
+}
+
+/* Settings page */
+.jmph-settings-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.jmph-settings-container .jmph-sets {
+	flex: 70%;
+}
+
+.jmph-settings-container .jmph-sets > h1 {
+	font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.jmph-settings-container .jmph-endorse {
+	flex: 30%;
+}
+
+@media (max-width: 800px) {
+	.jmph-settings-container {
+		flex-direction: column;
+	}
+	.jmph-settings-container .jmph-sets,
+	.jmph-settings-container .jmph-endorse {
+		flex: 100%;
+	}
+}
+
+
+/* Recomendation */
+
+.jmph-settings-container .jmph-endorse img {
+	max-width: 100%;
+}
+
+.jmph-settings-container .jmph-endorse h2 {
+	font-size: 18px;
+	padding-left: 10px;
+	text-transform: uppercase;
+	line-height: 24px;
+}
+
+.jmph-settings-container .jmph-endorse h2:after {
+	content: "";
+	width: 40px;
+	height: 8px;
+	background: #2271b1;
+	display: block;
+	margin-top: 10px;
+}
+
+
+/* Toggle switch */
+
+.jmph-toggle {
+	display: inline-flex;
+	margin: 0;
+}
+
+.jmph-toggle input[type="checkbox"] {
+	height: 0;
+	width: 0;
+	visibility: hidden;
+	display: none;
+}
+
+.jmph-toggle input[type=checkbox]:checked+label {
+	background: #2271b1;
+}
+
+.jmph-toggle input[type=checkbox]:checked+label::after {
+	left: calc(100% - 4px);
+	transform: translateX(-100%);
+}
+
+.jmph-toggle label {
+	cursor: pointer;
+	width: 48px;
+	height: 24px;
+	background: grey;
+	display: block;
+	border-radius: 24px;
+	position: relative;
+}
+
+.jmph-toggle label::after {
+	content: "";
+	position: absolute;
+	top: 4px;
+	left: 4px;
+	width: 16px;
+	height: 16px;
+	background: white;
+	border-radius: 16px;
+	transition: 0.3s;
+}
+
+
+/* icon Picker */
+
+.jmph-icons .jmph-icons-selector {
+	width: 250px;
+	height: 80px;
+	background: #ffffff;
+	padding: 5px 5px;
+	box-shadow: 0px 0px 1px 1px #ddd;
+	overflow-y: auto;
+	scrollbar-width: thin;
+	resize: both;
+}
+
+.jmph-icons .jmph-icons-selector li {
+	display: inline-block;
+	width: 55px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 18px;
+	line-height: 30px;
+	border: 1px solid transparent;
+}
+
+.jmph-icons .jmph-icons-selector li:hover,
+.jmph-icons .jmph-icons-selector li.active {
+	color: #2271b1;
+	cursor: pointer;
+	border: 1px solid #c3d7e8;
+}

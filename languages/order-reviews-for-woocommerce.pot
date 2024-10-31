@@ -1,0 +1,554 @@
+# Copyright (C) 2022 Jompha
+# This file is distributed under the GPL3.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Order Reviews for WooCommerce\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-30 16:50+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Jompha Team <hello@jompha.com>\n"
+"Language-Team: Jompha Team <hello@jompha.com>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.8; wp-5.9\n"
+"X-Domain: order-reviews-for-woocommerce"
+
+#: classes/Admin/Settings.class.php:88 classes/Admin/Settings.class.php:99
+msgid "12"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:90 classes/Admin/Settings.class.php:112
+msgid "3"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:110
+msgid "5"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:101
+msgid "6"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"A review and feedback capture plugin for WooCommerce. Powered by Jompha."
+msgstr ""
+
+#: ORFW.php:507
+msgid "Activate"
+msgstr ""
+
+#: ORFW.php:193 ORFW.php:194
+msgid "Add New review"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:100
+msgid ""
+"After the popup is skipped, ask for review again after X hours. (0 = "
+"instantly)"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:98
+msgid "Again Period"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:247
+msgid "Background color of the card"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:167
+msgid "Body Background"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:197
+msgid "Body text color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:217
+msgid "Button text color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:279
+msgid "Choose font size."
+msgstr ""
+
+#: classes/Admin/Settings.class.php:293
+msgid "Choose font style."
+msgstr ""
+
+#: ORFW.php:314
+msgid "Community support"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:34
+msgid "Content"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:35
+msgid "Content Settings"
+msgstr ""
+
+#: Anumati.php:545
+msgid "Curl extension is missing"
+msgstr ""
+
+#: classes/Admin/Lists.class.php:31
+msgid "Customer"
+msgstr ""
+
+#: ORFW.php:491
+msgid "Describe other info about licensing if required"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:302
+msgid "Display the order time in popup."
+msgstr ""
+
+#: ORFW.php:313
+msgid "Docs"
+msgstr ""
+
+#: ORFW.php:196
+msgid "Edit review"
+msgstr ""
+
+#: ORFW.php:498
+msgid "Email Address"
+msgstr ""
+
+#: Anumati.php:492
+msgid "Empty Response"
+msgstr ""
+
+#: ORFW.php:487
+msgid ""
+"Enter your license key here, to activate the product, and get full feature "
+"updates and premium support."
+msgstr ""
+
+#: classes/Admin/Lists.class.php:29
+msgid "Feedback"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:338
+msgid "Footer Text"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:139
+msgid "Force customer to give a review and hide the skip button"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:129
+msgid "Force Feedback for Bad Rating"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:138
+msgid "Force Review"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:120
+msgid "Force Write Feedback"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:109
+msgid "Frequency"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:24
+msgid "General"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:25
+msgid "General Settings"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:157
+msgid "Header Background"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:187
+msgid "Header highlighted text color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:177
+msgid "Header text color"
+msgstr ""
+
+#: ORFW.php:490
+msgid "How buyer will get this license key?"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:89
+msgid ""
+"How many hours after the order is completed the popup will first be shown to "
+"the user? (0 = instantly)"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:111
+msgid ""
+"How many times the popup will show to customer if skipped? (0 = unlimited)"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://jompha.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://jompha.com/"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:130
+msgid ""
+"If checked, users must have to write a feedback if the rating is equal to or "
+"less than 3."
+msgstr ""
+
+#: classes/Admin/Settings.class.php:121
+msgid "If checked, users must have to write a feedback."
+msgstr ""
+
+#: ORFW.php:412
+msgid "Invalid"
+msgstr ""
+
+#: Anumati.php:796
+msgid "Invalid data"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:290
+msgid "Italic"
+msgstr ""
+
+#. Author of the plugin
+msgid "Jompha"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:275
+msgid "Large"
+msgstr ""
+
+#: ORFW.php:344 ORFW.php:345
+msgid "License"
+msgstr ""
+
+#: ORFW.php:494
+msgid "License code"
+msgstr ""
+
+#: ORFW.php:426
+msgid "License Expired on"
+msgstr ""
+
+#: ORFW.php:419
+msgid "License Type"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:265
+msgid "Link color (products) of the text"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:276
+msgid "Medium"
+msgstr ""
+
+#: ORFW.php:195
+msgid "New review"
+msgstr ""
+
+#: ORFW.php:200
+msgid "No Reviews found"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:289
+msgid "Normal"
+msgstr ""
+
+#: ORFW.php:201
+msgid "Not Reviews found in Trash"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:291
+msgid "Oblique"
+msgstr ""
+
+#: classes/Admin/Lists.class.php:28
+msgid "Order ID"
+msgstr ""
+
+#: ORFW.php:188 ORFW.php:190
+msgid "Order Review"
+msgstr ""
+
+#: ORFW.php:184 ORFW.php:187 ORFW.php:189 classes/Admin/Settings.class.php:60
+#: classes/Admin/Settings.class.php:61
+msgid "Order Reviews"
+msgstr ""
+
+#. Name of the plugin
+msgid "Order Reviews for WooCommerce"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:350
+msgid "Order Reviews Settings"
+msgstr ""
+
+#: ORFW.php:402
+msgid "ORFW License Info"
+msgstr ""
+
+#: ORFW.php:475
+msgid "ORFW Licensing"
+msgstr ""
+
+#: ORFW.php:191
+msgid "Parent Order Review:"
+msgstr ""
+
+#: Anumati.php:178
+msgid "Please activate license or renew support period to get latest version."
+msgstr ""
+
+#: Anumati.php:181
+msgid "Please activate license to get latest version."
+msgstr ""
+
+#: classes/Resources.class.php:69
+msgid "Please add a rating."
+msgstr ""
+
+#: Anumati.php:184
+msgid "Please renew support period to get latest version"
+msgstr ""
+
+#: classes/Resources.class.php:68
+msgid "Please write a feedback."
+msgstr ""
+
+#: classes/Admin/Settings.class.php:320
+msgid "Rate the order"
+msgstr ""
+
+#: classes/Admin/Lists.class.php:30
+msgid "Rating"
+msgstr ""
+
+#: ORFW.php:432 ORFW.php:447
+msgid "Renew"
+msgstr ""
+
+#: Anumati.php:464
+msgid "Response Error, contact with the author or update the plugin"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:246
+msgid "Review Info Box"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:255
+msgid "Review Info Color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:256
+msgid "Review info color of the text "
+msgstr ""
+
+#: classes/Admin/Settings.class.php:273
+msgid "Review Info Font Size"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:287
+msgid "Review Info Font Style"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:264
+msgid "Review Info Link Color"
+msgstr ""
+
+#: ORFW.php:192
+msgid "Reviews"
+msgstr ""
+
+#: ORFW.php:185
+msgid "Reviews of orders posted by customers."
+msgstr ""
+
+#: ORFW.php:199
+msgid "Search review"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:168
+msgid "Set background for the template body"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:158
+msgid "Set background for the template header"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:198
+msgid "Set body text color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:218
+msgid "Set button background color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:188
+msgid "Set header highlighted text color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:178
+msgid "Set header text color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:238
+msgid "Set skip/close color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:228
+msgid "Set small text color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:208
+msgid "Set submit button background color"
+msgstr ""
+
+#: ORFW.php:300
+msgid "Settings"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:301
+msgid "Show Order Time"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:237
+msgid "Skip/Close color"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:277
+msgid "Small"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:227
+msgid "Small text color"
+msgstr ""
+
+#: ORFW.php:407
+msgid "Status"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:30
+msgid "Style Settings"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:29
+msgid "Styles"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:207
+msgid "Submit Button Background"
+msgstr ""
+
+#: ORFW.php:441
+msgid "Support Expired on"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:26
+msgid ""
+"This is where you change the default behavior of the popup and configure "
+"general settings."
+msgstr ""
+
+#: classes/Admin/Settings.class.php:36
+msgid "This is where you control the default content like texts, etc."
+msgstr ""
+
+#: classes/Admin/Settings.class.php:31
+msgid "This is where you control the visual stuffs like colors, font, etc."
+msgstr ""
+
+#: classes/Front/ReviewInfo.class.php:113
+#, php-format
+msgid "This user also bought %s and %s."
+msgstr ""
+
+#: classes/Front/ReviewInfo.class.php:130
+#, php-format
+msgid "This user also bought %s, %s, %s and %s other items."
+msgstr ""
+
+#: classes/Front/ReviewInfo.class.php:121
+#, php-format
+msgid "This user also bought %s, %s, and %s."
+msgstr ""
+
+#: classes/Front/ReviewInfo.class.php:106
+#, php-format
+msgid "This user also bought %s."
+msgstr ""
+
+#: classes/Admin/Lists.class.php:32
+msgid "Time"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:148
+msgid "Turn on if you want to use custom colors"
+msgstr ""
+
+#: Anumati.php:481 Anumati.php:606
+msgid "Unknown Response"
+msgstr ""
+
+#: Anumati.php:62
+msgid "Update Check"
+msgstr ""
+
+#: ORFW.php:197
+msgid "Update review"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:147
+msgid "Use Custom Colors"
+msgstr ""
+
+#: ORFW.php:410
+msgid "Valid"
+msgstr ""
+
+#: ORFW.php:198
+msgid "View review"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:87
+msgid "Wait Period"
+msgstr ""
+
+#: ORFW.php:503
+msgid ""
+"We will send update news of this product on this e-mail address, do not "
+"worry, we hate spam too"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:329
+msgid "Write feedback"
+msgstr ""
+
+#: ORFW.php:489
+msgid "Write your license key details"
+msgstr ""
+
+#: ORFW.php:495
+msgid "xxxxxxxx-xxxxxxxx-xxxxxxxx-xxxxxxxx"
+msgstr ""
+
+#: classes/Admin/Settings.class.php:311
+msgid "Your Last Order"
+msgstr ""
+
+#: ORFW.php:455
+msgid "Your License Key"
+msgstr ""

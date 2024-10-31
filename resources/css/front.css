@@ -1,0 +1,321 @@
+/* Popup Style */
+#orfw-popup *{
+	font-family: 'Roboto', sans-serif;
+}
+#orfw-popup {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+  	background-color: rgba(0,0,0,.35);
+}
+
+#orfw-popup .orfw-popup-inner {
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    right: auto;
+    bottom: auto;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    min-width: 350px;
+}
+#orfw-popup.orfw-use-default-colors .orfw-popup-inner {
+	background-color: #ffffff;
+	color: #442a00;
+}
+#orfw-popup.orfw-use-custom-colors .orfw-popup-inner {
+	background-color: var(--orfw-template-body-background-color);
+	color: var(--orfw-template-body-text-color);
+}
+
+#orfw-popup.orfw-use-default-colors .orfw-popup-header {
+	background-color: #f4b248;
+	color: #442a00;
+}
+#orfw-popup.orfw-use-custom-colors .orfw-popup-header {
+	background-color: var(--orfw-template-header-background-color);
+	color: var(--orfw-template-header-text-color);
+}
+
+#orfw-popup .orfw-popup-footer, #orfw-popup .orfw-popup-header {
+	padding: 20px 20px;
+}
+/* Inner */
+#orfw-popup .orfw-popup-order-info h3 {
+    margin: 10px 0 0px;
+    font-size: 20px;
+}
+#orfw-popup .orfw-popup-order-info h1 {
+    font-size: 30px;
+    font-weight: normal;
+    margin: 5px 0 0px;
+}
+#orfw-popup.orfw-use-default-colors .orfw-popup-order-info h1 {
+	color: #ffffff;
+}
+#orfw-popup.orfw-use-custom-colors .orfw-popup-order-info h1 {
+	color: var(--orfw-template-header-highlighted-text-color);
+}
+#orfw-popup .orfw-popup-order-info p {
+    font-size: 14px;
+    margin: 0 0 20px;
+}
+#orfw-popup .orfw-popup-order-products {
+    max-width: 360px;
+    margin: 10px auto 0;
+}
+#orfw-popup .orfw-popup-order-products .owl-stage .owl-item.mrzero{
+	margin-right: 0!important;
+	float: right;
+}
+#orfw-popup .orfw-popup-footer h2 {
+	margin: 5px auto;
+	font-size: 20px;
+	font-weight: normal;
+}
+#orfw-popup .orfw-popup-footer #orfw-template-submit-button {
+    padding: 10px 45px;
+    border-radius: 2px;
+    display: block;
+    margin: 10px auto 0;
+    font-weight: normal;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0px;
+    line-height: 20px;
+    outline: 0;
+}
+#orfw-popup .orfw-popup-footer #orfw-template-submit-button:disabled {
+	cursor: default;
+}
+#orfw-popup.orfw-use-default-colors .orfw-popup-footer #orfw-template-submit-button {
+	background-color: #f4b248;
+	color: #ffffff;
+}
+#orfw-popup.orfw-use-custom-colors .orfw-popup-footer #orfw-template-submit-button {
+	background-color: var(--orfw-template-submit-background-color);
+	color: var(--orfw-template-submit-text-color);
+}
+#orfw-popup .orfw-popup-footer #orfw-template-submit-button span {
+	vertical-align: middle;
+	width: 0;
+}
+#orfw-popup .orfw-popup-footer #orfw-template-submit-button span.dashicons-yes-alt {
+    line-height: 25px;
+}
+#orfw-popup h4.disclaimer {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 20px 12%;
+	line-height: 20px;
+}
+#orfw-popup.orfw-use-default-colors h4.disclaimer {
+	color: #442a00;
+}
+#orfw-popup.orfw-use-custom-colors h4.disclaimer {
+	color: var(--orfw-template-small-text-color);
+}
+
+#orfw-popup a#orfw-popup-skip {
+	text-decoration: none;
+}
+#orfw-popup.orfw-use-default-colors a#orfw-popup-skip {
+	color: #f4b248;
+}
+#orfw-popup.orfw-use-custom-colors a#orfw-popup-skip {
+	color: var(--orfw-template-skip-text-color);
+}
+#orfw-popup .orfw-popup-rating textarea#orfw-popup-comment {
+	display: none;
+	width: 70%;
+	margin: 5px auto 0;
+	height: 50px;
+	border-color: transparent;
+	resize: none;
+	font-size: 14px;
+	text-align: center;
+	padding: 0;
+}
+
+#orfw-popup .orfw-popup-rating textarea#orfw-popup-comment:focus {
+	outline: 0;
+}
+
+/*
+Rating Star
+*/
+
+#orfw-popup .feedback {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+#orfw-popup .rating {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	overflow: hidden;
+	flex-direction: row-reverse;
+	height: 110px;
+	position: relative;
+}
+
+#orfw-popup .rating-0 {
+  filter: grayscale(100%);
+}
+
+#orfw-popup .rating > input {
+  display: none;
+}
+
+#orfw-popup .rating > label {
+	cursor: pointer;
+	width: 40px;
+	height: 35px;
+	margin-top: auto;
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23e3e3e3' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 76%;
+	transition: .3s;
+}
+
+#orfw-popup .rating > input:checked ~ label,
+#orfw-popup .rating > input:checked ~ label ~ label {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23fcd93a' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+}
+
+#orfw-popup .rating > input:not(:checked) ~ label:hover,
+#orfw-popup .rating > input:not(:checked) ~ label:hover ~ label {
+  background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729' height='126.73'%3e%3cpath fill='%23d8b11e' d='M121.215 44.212l-34.899-3.3c-2.2-.2-4.101-1.6-5-3.7l-12.5-30.3c-2-5-9.101-5-11.101 0l-12.4 30.3c-.8 2.1-2.8 3.5-5 3.7l-34.9 3.3c-5.2.5-7.3 7-3.4 10.5l26.3 23.1c1.7 1.5 2.4 3.7 1.9 5.9l-7.9 32.399c-1.2 5.101 4.3 9.3 8.9 6.601l29.1-17.101c1.9-1.1 4.2-1.1 6.1 0l29.101 17.101c4.6 2.699 10.1-1.4 8.899-6.601l-7.8-32.399c-.5-2.2.2-4.4 1.9-5.9l26.3-23.1c3.8-3.5 1.6-10-3.6-10.5z'/%3e%3c/svg%3e");
+}
+
+#orfw-popup .emoji-wrapper {
+	width: 100%;
+	text-align: center;
+	height: 70px;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#orfw-popup .emoji-wrapper:before,
+#orfw-popup .emoji-wrapper:after {
+  content: "";
+  height: 15px;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+}
+
+#orfw-popup .emoji {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: .3s;
+}
+
+#orfw-popup .emoji > img {
+	margin: 10px 0;
+	width: 50px;
+	height: 50px;
+	flex-shrink: 0;
+}
+
+#orfw-popup #rating-1:checked ~ .emoji-wrapper > .emoji {
+	transform: translateY(-69px);
+}
+#orfw-popup #rating-2:checked ~ .emoji-wrapper > .emoji {
+	transform: translateY(-139px);
+}
+#orfw-popup #rating-3:checked ~ .emoji-wrapper > .emoji {
+	transform: translateY(-209px);
+}
+#orfw-popup #rating-4:checked ~ .emoji-wrapper > .emoji {
+	transform: translateY(-279px);
+}
+#orfw-popup #rating-5:checked ~ .emoji-wrapper > .emoji {
+	transform: translateY(-349px);
+}
+
+/* 
+Popup Two
+*/
+
+#orfw-popup.popup-two a#orfw-popup-skip {
+	color: #442a00;
+	text-decoration: none;
+}
+
+.orfw-popup-error-wrapper {
+	display: none;
+	margin: 15px 0;
+	color: rgb(206, 13, 13);
+	font-size: 16px;
+	font-weight: 500;
+}
+.orfw-popup-error-wrapper span {
+	vertical-align: middle;
+}
+
+/* Loader */
+.lds-facebook {
+	display: inline-block;
+	position: relative;
+	width: 80px;
+	height: 80px;
+  }
+  .lds-facebook div {
+	display: inline-block;
+	position: absolute;
+	left: 8px;
+	width: 16px;
+	background: #fff;
+	animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+	left: 8px;
+	animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+	left: 32px;
+	animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+	left: 56px;
+	animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+	0% {
+	  top: 8px;
+	  height: 64px;
+	}
+	50%, 100% {
+	  top: 24px;
+	  height: 32px;
+	}
+  }
+
+  /* Orfw Review Information */
+	.orfw-review-info{
+		font-style: var(--orfw-review-font-style);
+		font-size: var(--orfw-review-font-size);
+		color: var(--orfw-review-font-color);
+		background-color: var(--orfw-review-background);
+		width: fit-content;
+		border-radius: 5px;
+		padding: 5px;
+		margin-top: 5px;
+	}
+	.orfw-review-info a{
+		color: var(--orfw-review-font-link-color);
+	}
